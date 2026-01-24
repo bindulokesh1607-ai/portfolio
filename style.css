@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 8px 0;
+}
+
+header a {
+  color: #ffd366;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section {
+  background-color: white;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 85%;
+}
+
+.section h2 {
+  border-bottom: 3px solid #764ba2;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.section ul {
+  line-height: 1.8;
+}
+
+.section li::marker {
+  color: #764ba2;
+}
+
+.job h3 {
+  color: #4a148c;
+  margin-top: 0;
+}
+
+.colorful {
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  color: #333;
+}
+
+.colorful h2 {
+  border-color: #333;
+}
+
+footer {
+  text-align: center;
+  background: #764ba2;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.project h3 {
+  color: #e91e63;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+  .section {
+    width: 95%;
+  }
+}
